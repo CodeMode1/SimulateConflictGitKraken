@@ -6,4 +6,4 @@ Modify the same line on the feature b.
 Merge feature b in main --> conflict.
 
 Git doesn't know what branch to take the change from. 
-(commit on feature b is not made directly after main b last commit so it can't take precedence and apply its changes, therefore the conflict happens)
+(commit on feature b is not made after main b last commit so it can't take precedence and apply its changes, therefore the conflict happens)
