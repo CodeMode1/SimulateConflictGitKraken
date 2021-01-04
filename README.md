@@ -1,5 +1,10 @@
-Simulate a merge conflict by starting a feature b one commit before the last commit on main branch. 
-(the first line of test.ts is changed on the last commit of main b)
+Simulate a merge conflict by starting a feature b one commit before the last commit on main b:
+
+Modify the first line of test.ts on main b and commit.
+
+Checkout the commit before this commit on main b.
+
+Start a new feature b from there.
 
 Modify the same line on the feature b.
 
